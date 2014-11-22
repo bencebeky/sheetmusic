@@ -1,12 +1,3 @@
-\version "2.8.1"
-\paper { #(set-paper-size "letter") }
-\layout { indent = 0.0\cm }
-
-\header {
-  title = Contradance
-  composer = "Ferdinando Carulli"
-}
-
 \new Staff { 
 	\clef "treble_8"
 	\time 2/4
@@ -43,4 +34,7 @@
     << { r8 <b fis'> r <b fis'> } \\ { dis4 dis } >>
     << { <g b e'>4 r } \\ { e4-"D.C. al fine" r } >>
 }
-
+\header {
+  title = Contradance
+  composer = "Ferdinando Carulli"
+}
