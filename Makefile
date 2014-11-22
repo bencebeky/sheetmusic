@@ -1,5 +1,5 @@
 sources := $(wildcard *.ly)
-all: $(patsubst %.ly,%.pdf,$(sources))
+all: $(patsubst %.ly,%.pdf,$(sources)) dallamok.pdf
 
 dallamok.pdf: $(sources)
 	./compile.py dallamok $(sources)
