@@ -46,6 +46,7 @@
   }
 } >>
 \header {
-  title = "Prince of Denmark's March (Trumpet Voluntary)"
+  title = "Prince of Denmark's March"
+  subtitle = "Trumpet Voluntary"
   composer = "Jeremiah Clarke"
 }
