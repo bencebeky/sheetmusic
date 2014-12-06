@@ -20,8 +20,8 @@ header = r"""\version "2.8.1"
 \layout { indent = 0.0\cm }
 \book {
 """
-before_filename = "\\score { \\include \""
-after_filename = "\" }\n"
+before_filename = "\\include \""
+after_filename = "\"\n"
 footer = "}\n"
 
 import sys
