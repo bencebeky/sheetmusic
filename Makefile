@@ -6,3 +6,6 @@ dallamok.pdf: $(sources)
 
 %.pdf: %.ly
 	./compile.py $(@:%.pdf=%) $(@:%.pdf=%.ly)
+
+.PHONY clean:
+	rm -f $(sources:%.ly=%.pdf) dallamok.pdf
