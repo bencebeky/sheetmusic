@@ -16,7 +16,7 @@
       c'4 a4 c'4 b4 | a2 r2 |
     }
     \repeat "volta" 2 {
-      a8 gis8 a4 b8 b8 b4 | b4 a4 b4 d'4 |
+      a8 gis8 a4 b8 b8 b4 | b4 a4 b4 c'4 |
       e'4. e'8 f'4 e'4 | d'4. d'8 e'4 d'8 d'8 |
       c'4 a4 c'4 b4 | a2 r2 |
     }
