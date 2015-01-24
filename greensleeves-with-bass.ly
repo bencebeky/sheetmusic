@@ -1,3 +1,4 @@
+\score {
 << \new Staff { 
   \clef G
   \time 3/4
@@ -50,4 +51,5 @@
 \header {
   title = "Greensleeves"
   composer = ""
+}
 }

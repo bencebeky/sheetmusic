@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef "treble"
   \time 4/4
@@ -22,4 +23,4 @@
   composer = "Erkel Ferenc"
   poet = "Kölcsey Ferenc"
 }
-
+}

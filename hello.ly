@@ -1,3 +1,4 @@
+\score {
 \new Staff {
   \clef G
   \time 4/4
@@ -38,4 +39,4 @@
   title = Hello
   composer = "Lionel Richie"
 }
-
+}

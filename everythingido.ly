@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -42,4 +43,4 @@
   title = "Everything I do"
   composer = "Brian Adams, Michael Karmen"
 }
-
+}

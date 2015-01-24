@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \transpose c c'
@@ -21,4 +22,4 @@
   title = "Promenade"
   composer = "Modest Mussorgsky"
 }
-
+}

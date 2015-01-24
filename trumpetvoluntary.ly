@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -33,4 +34,4 @@
   subtitle = "Trumpet Voluntary"
   composer = "Jeremiah Clarke"
 }
-
+}

@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -14,4 +15,4 @@
   title = "Aquarela do Brasil"
   composer = "Ary Barroso, Michael Kamen"
 }
-
+}

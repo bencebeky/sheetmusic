@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
 	\clef "treble_8"
 	\time 2/4
@@ -37,4 +38,5 @@
 \header {
   title = Contradance
   composer = "Ferdinando Carulli"
+}
 }

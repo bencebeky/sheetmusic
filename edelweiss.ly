@@ -1,3 +1,4 @@
+\score {
 %<< \new ChordNames \chordmode {
 %  g2. d g c g e:m a:m7 d:7
 %  g d g c g d:7 g g
@@ -32,4 +33,4 @@
   title = "Edelweiss"
   composer = "Richard Rodgers, Oscar Hammerstein II"
 }
-
+}

@@ -1,3 +1,4 @@
+\score {
 << \new Staff { 
   \clef G
   \time 4/4
@@ -36,6 +37,7 @@
 } >>
 \header {
   title = "Magyar népmesék"
+}
 }
 
 %{      \time 3/4 \repeat "volta" 2 { g4 e d | c d e | g e d | c d8 e d e | g4 e g | a e a | g e d | c2 r4 } 

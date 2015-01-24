@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 6/8
@@ -17,4 +18,4 @@
   title = "Morning mood theme"
   composer = "Edward Grieg"
 }
-
+}

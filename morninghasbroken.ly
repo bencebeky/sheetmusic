@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef "treble_8"
   \time 3/4 
@@ -55,4 +56,4 @@
   title = "Morning has broken"
   composer = "Eleanor Farjeon 1931 "
 }
-
+}

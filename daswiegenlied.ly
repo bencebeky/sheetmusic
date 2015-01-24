@@ -1,3 +1,4 @@
+\score {
 \new Staff {
   \clef "treble"
   \time 6/8
@@ -22,4 +23,4 @@
   title = "Das Wiegenlied"
   composer = "Bernhard Flies"
 }
-
+}

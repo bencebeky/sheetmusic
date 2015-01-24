@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef "treble"
   \time 4/4
@@ -23,4 +24,4 @@
 \header {
   title = "Egy boszorka van"
 }
-
+}

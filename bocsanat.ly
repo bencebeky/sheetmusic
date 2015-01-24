@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 5/4
@@ -16,4 +17,4 @@
   composer = "Kaláka"
   poet = "József Attila"
 }
-
+}

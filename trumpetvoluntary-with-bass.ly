@@ -1,3 +1,4 @@
+\score {
 << \new Staff { 
   \clef G
   \time 4/4
@@ -49,4 +50,5 @@
   title = "Prince of Denmark's March"
   subtitle = "Trumpet Voluntary"
   composer = "Jeremiah Clarke"
+}
 }

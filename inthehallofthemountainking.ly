@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -18,4 +19,4 @@
   title = "In the hall of the mountain king theme"
   composer = "Edward Grieg"
 }
-
+}

@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -14,4 +15,4 @@
   composer = "Halász Judit"
   poet = "Weöres Sándor"
 }
-
+}

@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -15,4 +16,5 @@
 \header {
   title = "Ciao bella"
   subtitle = "Olasz partizándal"
+}
 }

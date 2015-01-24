@@ -1,3 +1,4 @@
+\score {
 \transpose c c'
 %\transpose c g
 \new Staff { 
@@ -21,4 +22,4 @@
   title = "1492: Conquest of Paradise"
   composer = "Evangelos Odysseas Papathanassiou"
 }
-
+}

@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -37,4 +38,5 @@
   title = "Balimbá balavé"
   subtitle = "Tibeti barlangász induló"
   meter = "Szólista előénekel, kórus ismétel, ütemenként."
+}
 }

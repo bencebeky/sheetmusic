@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -21,4 +22,4 @@
   title = "What a wonderful world"
   composer = ""
 }
-
+}

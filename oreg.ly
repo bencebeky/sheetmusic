@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 6/8
@@ -17,4 +18,4 @@
   composer = "Kaláka"
   poet = "Kiss Anna"
 }
-
+}

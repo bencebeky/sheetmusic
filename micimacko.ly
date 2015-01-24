@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -26,4 +27,4 @@
   title = "Micimackó"
   composer = "Koncz Zsuzsa"
 }
-
+}

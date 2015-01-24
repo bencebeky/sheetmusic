@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
   \clef G
   \time 4/4
@@ -17,4 +18,4 @@
   composer = "Daniel Alomía Robles"
   year = "1913"
 }
-
+}

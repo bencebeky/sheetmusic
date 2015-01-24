@@ -1,3 +1,4 @@
+\score {
 \new Staff { 
 \clef G
   \time 4/4
@@ -54,4 +55,5 @@
 }
 \header {
   title = "Volt egy néger Afrikában"
+}
 }
