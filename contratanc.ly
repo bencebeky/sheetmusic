@@ -1,5 +1,5 @@
 \score {
-\new Staff { 
+\new Staff {
 	\clef "treble_8"
 	\time 2/4
     << { <g b>4\p <g b> } \\ { r8 d r d } >>

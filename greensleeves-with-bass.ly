@@ -1,5 +1,5 @@
 \score {
-<< \new Staff { 
+<< \new Staff {
   \clef G
   \time 3/4
   \tempo "Allegro" 4 = 140
@@ -19,7 +19,7 @@
     }
   }
 }
-\new Staff { 
+\new Staff {
   \clef F
   \time 3/4
   <<
@@ -27,8 +27,8 @@
   \new Voice { \voiceOne
     \partial 4 r4
     \repeat "volta" 2 {
-      e2. d d fis e b, b, fis b, b, a, b, b, b, b, e 
-      g d d fis e b, b, fis g d d fis e fis e 
+      e2. d d fis e b, b, fis b, b, a, b, b, b, b, e
+      g d d fis e b, b, fis g d d fis e fis e
     }
     \alternative {
       { b,2. }
@@ -39,8 +39,8 @@
   \new Voice { \voiceTwo
     \partial 4 r4
     \repeat "volta" 2 {
-      e2. d d fis e b, b, fis b, b, a, b, b, b, b, e 
-      g d d fis e b, b, fis g d d fis e fis e 
+      e2. d d fis e b, b, fis b, b, a, b, b, b, b, e
+      g d d fis e b, b, fis g d d fis e fis e
     }
     \alternative {
       { b,2. }

@@ -16,7 +16,7 @@
     bes8 c' bes a bes c' | g4 r8 r4 r8 |
     a8 bes a g f g | f4 r8 r4 a8 |
     \autoBeamOn
-    c'4.( c'8)( a) bes16( g) | f4 r8 r4 r8 
+    c'4.( c'8)( a) bes16( g) | f4 r8 r4 r8
   }
 }
 \header {

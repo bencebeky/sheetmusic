@@ -1,7 +1,7 @@
 \score {
-\new Staff { 
+\new Staff {
   \clef "treble_8"
-  \time 3/4 
+  \time 3/4
   \new Voice {
     \repeat "volta" 2 {
       c4 e g | c'2. | d' |
@@ -24,31 +24,31 @@
     e4 fis e | d2 r4
   }
   \addlyrics {
-    Morn -- ing has brok -- en 
+    Morn -- ing has brok -- en
     like the first morn -- ing
-    black bird has spok -- en 
-    like the first bird 
-    praise for the sing -- ing 
+    black bird has spok -- en
+    like the first bird
+    praise for the sing -- ing
     praise for the morn -- ing
-    praise for the spring -- ing 
+    praise for the spring -- ing
     fresh from the world.
-    Mine is the sun -- light 
+    Mine is the sun -- light
     mine is the morn -- ing
-    born of the one light 
+    born of the one light
     E -- den saw play
-    praise with e -- la -- tion 
+    praise with e -- la -- tion
     praise ev -- ry morn --	ing
-    God's re -- cre -- a -- tion 
-    of the new day. 
+    God's re -- cre -- a -- tion
+    of the new day.
   }
   \addlyrics  {
     Sweet the rains new fall
     sun -- lit from heav -- en
-    like the first dew fall 
-    on the first grass 
+    like the first dew fall
+    on the first grass
     praise for the seet -- ness
     of the wet gar -- den
-    sprung in com -- plete ness 
+    sprung in com -- plete ness
     where his feet pass.
   }
 }

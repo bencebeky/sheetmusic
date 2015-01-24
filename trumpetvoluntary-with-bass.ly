@@ -1,5 +1,5 @@
 \score {
-<< \new Staff { 
+<< \new Staff {
   \clef G
   \time 4/4
   \tempo "Maestoso"
@@ -28,7 +28,7 @@
     d2 e4.\startTrillSpan d16\stopTrillSpan e | fis4. g8 fis4 \prall e | d8 e d e e4.\startTrillSpan d8\stopTrillSpan | d1 \fermata
   }
 }
-\new Staff { 
+\new Staff {
   \clef F
   \time 4/4
   \transpose d c
@@ -38,7 +38,7 @@
     d2 a, | d4 a, d, e, | fis,4 e, d, fis, | a,2 a4 g | fis2 e2 | d2. b,4 | d4 g, a,2 | d4 a, d,2 |
     d2 b, | a,2. a,4 | d2. d4 | d2 d, | d4 cis b, e | a,2. a,4 | d2 d, | a,2 a8 g fis e |
     d4 cis b,2 | a,2. a,4 | d2 d, | d1 | d4 cis b, e | a,2 a, | d2 d,2 | a,2 a8 g fis e |
-    d2 a, | d4 a, d, e, | fis,4 e, d, fis, | a,2 a4 g | fis2 e2 | d2. a,4 | d4 g, a,2 | d4 a, d,2 | 
+    d2 a, | d4 a, d, e, | fis,4 e, d, fis, | a,2 a4 g | fis2 e2 | d2. a,4 | d4 g, a,2 | d4 a, d,2 |
     d2 a, | d4 a, d, e, | fis,4 e, d, fis, | a,2 a4 g | fis2 e2 | d2. a,4 | fis,4 g, a,2 | d4 a, d,2 |
     d2. d4 | d2. d4 | d2. d4 | e2 a,2 | a,2. a,4 | a,2. a,4 | a,4. a,8 e4 e, | b,2. r4 |
     d2. d,4 | d2. d,4 | d2. d,4 | e,2 a,2 | a,2. d,4 | a,2. d,4 | a,4. a,8 e4 d, | b,2. r4 |

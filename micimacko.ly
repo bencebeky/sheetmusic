@@ -1,5 +1,5 @@
 \score {
-\new Staff { 
+\new Staff {
   \clef G
   \time 4/4
   \transpose c c''
@@ -15,7 +15,7 @@
     \times 2/3 {d8 d d(} d4) d16 d d8 d8 r16 d | c8 c d e \times 2/3 {d8 a, d(} d4) |
     \times 2/3 {d8 d d(} d8) b,8 d8 d \times 2/3 {d8 b, r} | c8 c d e \times 2/3 {d8 d e} fis8 r16 fis \break
     \times 2/3 {g8 g g} g8 g fis8 d d d | e8 e g e \times 2/3 {d4 b,8(} b,8) r16 b, |
-    e16 e e e e8 e \times 2/3 {e8 e e(} e8) e | \times 2/3 {e8 e fis(} fis8) g fis8 d r4 
+    e16 e e e e8 e \times 2/3 {e8 e e(} e8) e | \times 2/3 {e8 e fis(} fis8) g fis8 d r4
     \bar "||" \break
     \times 2/3 {g8 g4} d8 b, \times 2/3 {c8 d e} r4 | d8 e d c b,8 c d4 |
     \times 2/3 {g8 g4} d8 b, c8 d e4 | d8 e d c \times 2/3 {b,8 c b,} r4 |

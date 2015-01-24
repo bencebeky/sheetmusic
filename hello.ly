@@ -5,7 +5,7 @@
   %\transpose e a,
   \new Voice \relative c' {
     \key c \major
-    \partial 8 e8 
+    \partial 8 e8
     \repeat "volta" 2 {
       e8 a a c b c c d  ( | d ) c4  ( d8 ) r4 r8 e,8 |
       e a a b b c c4 | r16 b c b a2 r8 e |

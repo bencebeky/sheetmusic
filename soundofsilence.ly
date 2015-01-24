@@ -1,5 +1,5 @@
 \score {
-\new Staff { 
+\new Staff {
   \clef G
   \time 4/4
   \tempo 4 = 110
@@ -26,7 +26,7 @@
     r4 d8 d f f a a | g2 r | r4 c8 c e e g g | f2 r |
     r4 f8 f a a c' c'( | d'4) d'8 c'4. r4 | r4 f8 f a a c' c'( | d'4) d'8 c'4. r4 |
     r4 f8 f a4 c'8 c' | d'4 d'8 d' d' d'8 e'4 | f'8 f' f' f' e' d'4. | c'4 r r d'8 c' |
-    a2 r2 | f8 f4. r4 f8 f | c'2 r4 r8 e8 | f8 d4. r2 
+    a2 r2 | f8 f4. r4 f8 f | c'2 r4 r8 e8 | f8 d4. r2
   }
   \addlyrics {
     Hel -- lo dark -- ness, my old friend

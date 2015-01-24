@@ -1,5 +1,5 @@
 \score {
-\new Staff { 
+\new Staff {
 \clef G
   \time 4/4
   \transpose c c'
@@ -47,9 +47,9 @@
     Af -- ri -- ká -- ban
     sem -- mi -- re sin -- csen gond.
     %
-    Ráz -- ta, ráz -- ta, 
+    Ráz -- ta, ráz -- ta,
     "s köz" -- ben ma -- gya -- ráz -- ta
-    hogy men -- nyi -- re sze -- re -- ti a 
+    hogy men -- nyi -- re sze -- re -- ti a
     for -- ró Af -- ri -- kát.
   }
 }

@@ -1,5 +1,5 @@
 \score {
-\new Staff { 
+\new Staff {
 \clef G
   \time 3/4
   \transpose c c'
