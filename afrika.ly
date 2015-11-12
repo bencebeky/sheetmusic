@@ -23,7 +23,7 @@
     }
   }
   \addlyrics {
-    Volt egy né -- ger Af -- ri -- ká -- ban.
+    Volt egy em -- ber Af -- ri -- ká -- ban.
     Nem já -- rat -- ták is -- ko -- lá -- ba.
     Úgy nőtt fel a Sza -- ha -- rá -- ban
     mint egy fe -- ke -- te pont.
@@ -54,6 +54,6 @@
   }
 }
 \header {
-  title = "Volt egy néger Afrikában"
+  title = "Volt egy ember Afrikában"
 }
 }
