@@ -1,0 +1,279 @@
+\documentclass[letterpaper,landscape]{article}
+\usepackage[landscape]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{harmony}
+
+\pagestyle{empty}
+
+\setlength\parindent{0pt}
+
+\addtolength {\hoffset} {-18 mm}
+\addtolength {\textwidth} {36 mm}
+
+\addtolength {\voffset} {-5 mm}
+\addtolength {\textheight} {20 mm}
+
+\makeatletter
+
+% \chord*{<chord>}<word><space>
+%  * gobbles following space
+%  <chord> chord symbol specification
+%  <word> chord is placed above this (optional)
+%  <space> mandatory end of argument
+
+\newcommand*\printchord[1]{#1}
+
+\newif\if@chord@gobble
+\newcommand*\chord{%
+ \@ifstar
+    {\@chord@gobbletrue\@chord}
+    {\@chord@gobblefalse\@chord}%
+}
+\newcommand*\@chord[1]{%
+ \@chord@aux{#1}%
+}
+\newcommand*\@chord@aux{}
+\def\@chord@aux#1#2 #3{%
+ \placeabove{\printchord{#1}}{\ifemptyquad{#2}}%
+ \if\relax\detokenize{#3}\relax
+ \else
+   \if@chord@gobble\else\space\fi
+ \fi
+  #3%
+}
+\newcommand*\ifemptyquad[1]{%
+ \if\relax\detokenize{#1}\relax
+   \quad\expandafter\@gobble
+ \else
+   \expandafter\@firstofone
+ \fi
+  {#1}%
+}
+
+\newcommand*\placeabove[2]{%
+ \begingroup
+   \linespread{1}\selectfont
+   \begin{tabular}[b]{@{}c@{}}#1\\#2\end{tabular}%
+ \endgroup
+}
+
+\newcommand\dalcim[1]{
+%\begin{center}
+{ \huge #1 }
+%\end{center}
+\bigskip
+}
+
+\begin{document}
+
+\large
+
+\begin{minipage}[t]{0.29\linewidth}
+
+\dalcim{Kis karácsonyi ének}
+
+D D D A
+
+\bigskip
+
+\chord*{D}Teg nap harangoztak, \\
+\chord*{D}Hol nap haran\chord*{A}goz \chord{D}nak, \\
+Holna\chord*{G}put án az ang\chord*{A}yal ok \\
+Gyémánt-\chord*{G}hav at \chord*{A}hoz \chord*{D}nak. {}
+\chord{A}{} { } \chord{D}{} {}
+
+\bigskip
+
+Szeretném az Istent \\
+Nagyosan dicsérni, \\
+De én még kisfiú vagyok, \\
+Csak most kezdek élni.
+
+\bigskip
+
+Isten-dicséretre \\
+Mégis csak kiállok, \\
+De boldogok a pásztorok \\
+S a három királyok.
+
+\bigskip
+
+Én is mennék, mennék, \\
+Énekelni mennék, \\
+Nagyok között kis Jézusért \\
+Minden szépet tennék.
+
+\bigskip
+
+Új csizmám a sárban \\
+Százszor bepiszkolnám, \\
+Csak az Úrnak szerelmemet \\
+Szépen igazolnám.
+
+\bigskip
+
+Új csizmám a sárban \ldots
+
+\end{minipage}
+\begin{minipage}[t]{0.39\linewidth}
+
+\dalcim{A kis Jézus megszületett}
+
+\chord{D}{A} kis Jézus megszületett, ör\chord*{G}vend \chord*{A}jün k, \\
+\chord*{D}El küldötte ő szent fiát Is\chord*{G}ten \chord*{A}ün k, \\
+\chord*{D}Bet lehemben \chord*{G}fek szik rongyos \chord*{E}jás zol\chord{A}ban, \\
+\chord*{D}Az ért van oly \chord*{G}fén yesség a \chord*{E}vá \chord*{A}ros \chord*{D}ba n.
+
+\bigskip
+
+Pásztorokhoz jön először a követ, \\
+Hozzájuk szólt az angyali üzenet, \\
+Megrettenve földre esnek mindnyájan, \\
+Nem tudják, hogy mi rejlik a sugárban.
+
+\bigskip
+
+De az angyal bátorítá mindnyáját, \\
+Megmutatá a szent helynek hajlékát, \\
+Hogy Betlehem városába menjenek, \\
+Ott egy rongyos istállócskát nézzenek.
+
+\bigskip
+
+Az istálló jászolában meglátják, \\
+A Messiást, kit borulva imádják, \\
+Meg is lelték az istállót s a jászolt, \\
+Hol Jézusunk, kis királyunk, szunnyadott.
+
+\bigskip
+
+Eleibe térdepeltek mindnyájan, \\
+Örvendezve énekeltek vígságban, \\
+Szűzanyának dícséretet mondának, \\
+Jézuskának ajándékot adának.
+
+\bigskip
+
+Egyik bárányt, másik sajtot, tejecskét, \\
+Virágokat, madárkákat, mézecskét, \\
+Hát én magam mit áldozzak, Jézuskám? \\
+Mit áldozzak, most született Krisztuskám?
+
+\end{minipage}
+\begin{minipage}[t]{0.29\linewidth}
+
+\dalcim{Karácsony este}
+
+\chord*{D}Kará csony este jöjj el már, \\
+\chord*{A}Kará csony este jöjj el már, \\
+\chord*{D}Kará csony este jöjj el már, \\
+\chord{A}Mi tiszta szívvel \chord*{D}vár unk.
+
+\bigskip
+
+Az asztal körül üldögélünk, \\
+Örömmel egymásra nézünk \\
+Együtt vagyunk, együtt érzünk, \\
+Szent karácsony éjjel.
+
+\bigskip
+
+\chord*{D}Is merős léptek kattan a zár, \\
+\chord{G}Itt a fiú, megjött már, \\
+\chord*{D}Fész kedre szállsz, mint a madár, \\
+\chord*{A}Szen t karácsony \chord*{D}éj jel.
+
+\bigskip
+
+Karácsony este jöjj el már, \ldots \\
+Az asztal körül üldögélünk, \ldots
+
+\bigskip
+
+Anyám nyisd ki az ablakot, \\
+Megjöttem már itt vagyok, \\
+Érzem az ünnepi illatot, \\
+Szent karácsony éjjel.
+
+\bigskip
+
+Karácsony este jöjj el már, \ldots \\
+Karácsony este jöjj el már, \ldots
+
+\end{minipage}
+
+\newpage
+
+\begin{minipage}[t]{0.54\linewidth}
+
+\dalcim{Összetartozunk}
+
+\chord*{D}Egy szer megszülettünk, ezért majd
+\chord*{A}egy szer megha\chord*{D}lun k, \\
+\chord{D}Adj hálát érte, hogy
+még együtt va\chord{A}gyunk! \\
+Mert \chord{D}volt már pár u\chord*{G}tu nk
+és \chord{A}sok mindent tu\chord*{D}dun k, \\
+De \chord*{G}leg főképpen \chord*{A}az t, \chord{$\times \times$ \ViPa} 
+hogy összetarto\chord*{D}zu nk.
+
+\bigskip
+
+Csak ahhoz kell most erő, hogy jó kedvünk legyen. \\
+Ígérem neked, ígérd meg nekem, \\
+Hogy bármi lesz velünk, bármennyit tévedünk, \\
+Mindig megbocsáthatunk, mert egymásért vagyunk.
+
+\bigskip
+
+Egyszer megszülettünk, \ldots
+
+\bigskip
+
+Te is tudod jól, hogy gyengék, törékenyek vagyunk, \\
+A szándékunk lehet jó és mégis hibázhatunk, \\
+Mert könnyű bántanunk egymást, vagy önmagunk, \\
+De nem hazudhatunk, mert egymásért vagyunk.
+
+\bigskip
+
+És ha jönnek rossz idők, elbúcsúzhatunk, \\
+De ne hidd, hogy ettől már meg is változunk, \\
+Mert volt már pár utunk és sok mindent tudunk, \\
+De a legfőképpen azt, hogy összetartozunk.
+
+\end{minipage}
+\begin{minipage}[t]{0.44\linewidth}
+
+\dalcim {Békesség, jó estét}
+
+Békesség, jó estét szent karácsony ünnepén \\
+Békesség, jó estét szent karácsony jaj de szép. \\
+Minden házban zöld fenyőfa feldíszítve áll, \\
+Ég a gyertya s a csengő hangja csilingelve száll. \\
+Oh, édes Jézusom tekintsél le ránk \\
+Karácsony éjjelén minden gyermek vár.
+
+\vspace{14mm}
+
+\dalcim{Fülig kucsma}
+
+\chord*{D}Fül ig kucsma, gyapjúkendő, \\
+\chord*{D}Id eért az új esztendő. \\
+\chord{A}A csizmáján csengő patkó, \\
+\chord{A}A subáján araszos hó. \\
+\chord{G}Hű de \chord{D}jó, \chord{G}az a \chord{D}jó, \\
+\chord*{G}Hog yha \chord*{D}tér dig \chord{A}ér a \chord*{D}hó !
+
+\bigskip
+
+De azért, hogy meg ne fagyjon, \\
+Ki teheti, ajtót nyisson \\
+Engedje be, bebebe, \\
+ide a jó melegbe! \\
+Hű de jó, az a jó, \\
+hogyha térdig ér a hó!
+
+\end{minipage}
+
+\end{document}
